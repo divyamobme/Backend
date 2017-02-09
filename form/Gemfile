@@ -1,0 +1,9 @@
+source 'https://rubygems.org'
+
+gem "sinatra", "1.4.7"
+gem 'activerecord'
+gem 'sinatra-activerecord'
+gem 'sqlite3'
+gem 'rtf', '~> 0.3.3'
+gem 'docx'
+gem "rake", "10.5.0"
