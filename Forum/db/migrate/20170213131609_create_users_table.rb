@@ -1,9 +1,9 @@
 class CreateUsersTable < ActiveRecord::Migration[5.0]
-  def change
+  def up
     create_table :registers do |t|
     t.string :name
     t.string :email
-    t.string :password
+    t.string :password_digest
    end
   end
 def down

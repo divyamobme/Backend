@@ -1,5 +1,0 @@
-require 'sinatra'
-require 'sinatra/activerecord'
-require './models'
-set :database, "sqlite3:formdatabase.sqlite3"
-set :bind, '0.0.0.0'
